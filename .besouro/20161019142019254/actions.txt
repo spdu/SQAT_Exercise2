@@ -88,3 +88,12 @@ UnitTestCaseAction 1476877800774 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877800775 TestPlanetExplorer.test_explorerPosition_XY_AfterSpawn FAIL
 CompilationAction 1476877811708 TestPlanetExplorer.java
 EditAction 1476877873448 TestPlanetExplorer.java 546 3 3 3
+CompilationAction 1476877875356 TestPlanetExplorer.java
+UnitTestCaseAction 1476877878509 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877878510 TestPlanetExplorer.java FAIL
+CompilationAction 1476877879817 TestPlanetExplorer.java
+CompilationAction 1476877880008 TestPlanetExplorer.java
+UnitTestCaseAction 1476877882323 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877882324 TestPlanetExplorer.test_explorerPosition_X_AfterSpawn FAIL
+RefactoringAction 1476877888452 PlanetExplorer.java ADD int getPosition(PlanetExplorer) METHOD
+EditAction 1476877897576 TestPlanetExplorer.java 547 3 3 3
