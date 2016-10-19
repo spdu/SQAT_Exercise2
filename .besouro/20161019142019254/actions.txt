@@ -44,3 +44,15 @@ RefactoringAction 1476877124201 PlanetExplorer.java ADD int getPosition() METHOD
 EditAction 1476877149249 TestPlanetExplorer.java 528 3 3 3
 CompilationAction 1476877150878 TestPlanetExplorer.java
 EditAction 1476877153226 PlanetExplorer.java 1363 4 2 0
+CompilationAction 1476877155147 PlanetExplorer.java
+CompilationAction 1476877155149 PlanetExplorer.java
+CompilationAction 1476877155150 TestPlanetExplorer.java
+RefactoringAction 1476877161257 PlanetExplorer.java REMOVE getPosition() METHOD
+CompilationAction 1476877162912 PlanetExplorer.java
+CompilationAction 1476877162914 PlanetExplorer.java
+CompilationAction 1476877163086 TestPlanetExplorer.java
+UnitTestCaseAction 1476877167081 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877167082 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877172801 PlanetExplorer.java ADD int getPosition() METHOD
+RefactoringAction 1476877191342 PlanetExplorer.java RENAME getPosition()=>int getPosition(PlanetExplorer) METHOD
+EditAction 1476877222851 PlanetExplorer.java 1389 4 2 0
