@@ -283,3 +283,6 @@ CompilationAction 1476880127249 TestPlanetExplorer.java
 UnitTestCaseAction 1476880128937 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880128938 TestPlanetExplorer.test_receiveCommand_fff FAIL
 EditAction 1476880149902 TestPlanetExplorer.java 2147 13 21 13
+UnitTestCaseAction 1476880152037 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880152038 TestPlanetExplorer.java FAIL
+EditAction 1476880349641 PlanetExplorer.java 2261 8 9 0

@@ -34,12 +34,22 @@ public class PlanetExplorer {
 		for (int i = 0; i < command.length(); i++){
 			//System.out.println(command.substring(i, i+1));
 		if (command.substring(i, i+1) == "f"){
-			if (facing == "W" || facing == "S") {
+			if (facing == "S") {
 				positionx--;
 				
 			}
-			else
-			positiony++;
+			if (facing =="W"){
+				positionx++;
+			}
+			
+			if (facing == "N") {
+				positiony++;
+			}
+					
+
+			if (facing == "E") {
+				positiony--;
+			}
 		}
 		if (command.substring(i, i+1) == "b"){
 			positiony--;
