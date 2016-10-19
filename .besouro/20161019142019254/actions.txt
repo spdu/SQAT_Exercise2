@@ -25,3 +25,13 @@ UnitTestSessionAction 1476876896276 TestPlanetExplorer.test_explorerFacingNorth 
 RefactoringAction 1476876925071 PlanetExplorer.java ADD String getFacing FIELD
 RefactoringAction 1476876926088 PlanetExplorer.java RENAME getFacing=>String getFacing() METHOD
 EditAction 1476876937800 PlanetExplorer.java 1322 3 2 0
+UnitTestCaseAction 1476876943601 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476876943602 TestPlanetExplorer.test_explorerFacingNorth OK
+RefactoringAction 1476876951421 TestPlanetExplorer.java ADD void test_explorerFacingNorth()/2 METHOD
+RefactoringAction 1476876958448 TestPlanetExplorer.java RENAME test_explorerFacingNorth()/2=>void test_explorer() METHOD
+RefactoringAction 1476876965463 TestPlanetExplorer.java RENAME test_explorer()=>void test_explorerPosition_() METHOD
+RefactoringAction 1476876966985 TestPlanetExplorer.java RENAME test_explorerPosition_()=>void test_explorerPosition_Start() METHOD
+RefactoringAction 1476876968499 TestPlanetExplorer.java RENAME test_explorerPosition_Start()=>void test_explorerPosition_Starting() METHOD
+RefactoringAction 1476876974528 TestPlanetExplorer.java RENAME test_explorerPosition_Starting()=>void test_explorerPosition_AfterSpawn() METHOD
+RefactoringAction 1476877054625 TestPlanetExplorer.java RENAME test_explorerPosition_AfterSpawn()=>void test_explorerPosition_X_AfterSpawn() METHOD
+EditAction 1476877065467 TestPlanetExplorer.java 520 3 3 3

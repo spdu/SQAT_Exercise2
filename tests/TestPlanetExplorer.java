@@ -15,4 +15,8 @@ public class TestPlanetExplorer {
 	public void test_explorerFacingNorth() throws PlanetExplorerException {
 	assertEquals("N", explorer.getFacing());
 	}
+	@Test
+	public void test_explorerPosition_X_AfterSpawn() throws PlanetExplorerException {
+	assertEquals(0, explorer.getPosition());
+	}
 }
