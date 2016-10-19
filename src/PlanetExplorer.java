@@ -17,8 +17,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-	positionx = x;
-	positiony = y;
+	//positionx = x;
+	//positiony = y;
 	}
 	
 	public String executeCommand(String command){
