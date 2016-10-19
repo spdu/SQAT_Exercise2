@@ -74,7 +74,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_receiveCommand_backback() throws PlanetExplorerException {
 	explorer.setPosition(0,0,"N");
-	explorer.executeCommand("bb");
+	explorer.executeCommand("b");
+	explorer.executeCommand("b");
 	assertEquals("0,-2,N", explorer.showInfo());
 	}
 	@Test
