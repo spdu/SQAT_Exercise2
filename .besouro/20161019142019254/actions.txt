@@ -83,3 +83,8 @@ RefactoringAction 1476877790407 PlanetExplorer.java REMOVE set() METHOD
 RefactoringAction 1476877790408 PlanetExplorer.java REMOVE getPosition(PlanetExplorer) METHOD
 RefactoringAction 1476877792421 PlanetExplorer.java ADD void set() METHOD
 EditAction 1476877793670 PlanetExplorer.java 1478 4 3 0
+CompilationAction 1476877795257 TestPlanetExplorer.java
+UnitTestCaseAction 1476877800774 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877800775 TestPlanetExplorer.test_explorerPosition_XY_AfterSpawn FAIL
+CompilationAction 1476877811708 TestPlanetExplorer.java
+EditAction 1476877873448 TestPlanetExplorer.java 546 3 3 3

@@ -13,12 +13,12 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_explorerFacingNorth() throws PlanetExplorerException {
-	explorer.set(0,0,"");
+	//explorer.set(0,0,"");
 	assertEquals("N", explorer.getFacing());
 	}
 	@Test
 	public void test_explorerPosition_XY_AfterSpawn() throws PlanetExplorerException {
 	
-	assertEquals(0, explorer);
+	assertEquals(0, explorer.getPosition);
 	}
 }
