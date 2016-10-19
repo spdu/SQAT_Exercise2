@@ -63,3 +63,10 @@ CompilationAction 1476877311523 PlanetExplorer.java
 CompilationAction 1476877311524 PlanetExplorer.java
 CompilationAction 1476877311731 TestPlanetExplorer.java
 EditAction 1476877315535 TestPlanetExplorer.java 520 3 3 3
+CompilationAction 1476877317674 TestPlanetExplorer.java
+UnitTestCaseAction 1476877396249 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877396250 TestPlanetExplorer.java FAIL
+FileOpenedAction 1476877426221 Spreadsheet.java 1903 5 13 0
+RefactoringAction 1476877473572 PlanetExplorer.java ADD int getPosition(PlanetExplorer) METHOD
+RefactoringAction 1476877488625 PlanetExplorer.java REMOVE getPosition(PlanetExplorer) METHOD
+EditAction 1476877493418 TestPlanetExplorer.java 508 3 3 3
