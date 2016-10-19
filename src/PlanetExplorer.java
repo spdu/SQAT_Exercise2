@@ -41,7 +41,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		for (int i = 0; i < command.length(); i++){
-			System.out.println("positionx on " + positionx);
+			System.out.println("currPos_X on " + positionx);
 			//System.out.println(command.substring(i, i+1));
 		if (command.substring(i, i+1) == "f"){
 			if (facing == "S") {
@@ -88,7 +88,7 @@ public class PlanetExplorer {
 		
 		}
 		currPos_X = positionx;
-		currPos_Y
+		currPos_Y = positiony;
 		PlanetExplorer.this.positiony = positiony;
 		return (positionx + "," + positiony + "," + getFacing());
 		
