@@ -202,3 +202,6 @@ RefactoringAction 1476879009352 TestPlanetExplorer.java ADD void test_receiveCom
 RefactoringAction 1476879015361 TestPlanetExplorer.java RENAME test_receiveCommand_backward()/2=>void test_receiveCommand_() METHOD
 RefactoringAction 1476879019373 TestPlanetExplorer.java RENAME test_receiveCommand_()=>void test_receiveCommand_leftforward() METHOD
 EditAction 1476879047698 TestPlanetExplorer.java 1821 11 17 11
+UnitTestCaseAction 1476879049603 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879049604 TestPlanetExplorer.java FAIL
+EditAction 1476879111546 PlanetExplorer.java 1965 8 12 0

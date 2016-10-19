@@ -32,6 +32,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if (command == "f"){
+			if (facing == "W" || facing == "S") {
+				positiony--;
+			}
 			positiony++;
 		}
 		if (command == "b"){
