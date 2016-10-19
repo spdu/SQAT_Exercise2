@@ -29,7 +29,7 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 
-			int currPos_X;
+			int currPos_X; // I have absolutely NO idea how to get the original co-ordinates from a earlier setting.
 			int currPos_Y;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -44,11 +44,11 @@ public class PlanetExplorer {
 			//System.out.println(command.substring(i, i+1));
 		if (command.substring(i, i+1) == "f"){
 			if (facing == "S") {
-				positionx--;
+				positiony--;
 				
 			}
 			if (facing =="W"){
-				positionx++;
+				positionx--;
 			}
 			
 			if (facing == "N") {
@@ -57,7 +57,7 @@ public class PlanetExplorer {
 					
 
 			if (facing == "E") {
-				positiony--;
+				positionx++;
 			}
 		}
 		if (command.substring(i, i+1) == "b"){
