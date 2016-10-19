@@ -111,7 +111,9 @@ public class PlanetExplorer {
 				setFacing("W");
 				break;
 			}
+		}
 		while (command == "r") {
+			
 			if (facing =="N"){
 				setFacing("E");
 				break;
@@ -128,7 +130,7 @@ public class PlanetExplorer {
 				setFacing("N");
 				break;
 			}
-		}
+		
 		}
 	}
 	public String getFacing() {

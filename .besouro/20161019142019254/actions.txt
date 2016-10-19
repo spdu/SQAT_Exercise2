@@ -400,3 +400,6 @@ RefactoringAction 1476883238278 TestPlanetExplorer.java ADD void test_receiveCom
 RefactoringAction 1476883243297 TestPlanetExplorer.java RENAME test_receiveCommand_right_showInfo()/2=>void test_receiveCommand_rr_showInfo() METHOD
 RefactoringAction 1476883245800 TestPlanetExplorer.java RENAME test_receiveCommand_rr_showInfo()=>void test_receiveCommand_rightx3_showInfo() METHOD
 EditAction 1476883250351 TestPlanetExplorer.java 3012 15 42 15
+UnitTestCaseAction 1476883253085 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883253087 TestPlanetExplorer.java FAIL
+EditAction 1476883286516 PlanetExplorer.java 3370 9 17 0
