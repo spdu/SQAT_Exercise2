@@ -81,7 +81,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_receiveCommand_leftforward() throws PlanetExplorerException {
 	explorer.setPosition(0,0,"N");
-	explorer.executeCommand("llll");
+	explorer.executeCommand("l");
+	explorer.executeCommand("f");
 	assertEquals("-1,0,W", explorer.showInfo());
 	}
 	
