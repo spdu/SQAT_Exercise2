@@ -33,20 +33,20 @@ public class PlanetExplorer {
 		 */
 		for (int i = 0; i < command.length(); i++){
 			System.out.println(command.substring(i, i+1));
-		if (command.substring(i) == "f"){
+		if (command.substring(i, i+1) == "f"){
 			if (facing == "W" || facing == "S") {
 				positionx--;
 			}
 			else
 			positiony++;
 		}
-		if (command.substring(i) == "b"){
+		if (command.substring(i, i+1) == "b"){
 			positiony--;
 		}
-		if (command.substring(i) == "l") {
+		if (command.substring(i, i+1) == "l") {
 			setFacing("W");
 		}
-		if (command.substring(i) == "r") {
+		if (command.substring(i, i+1) == "r") {
 			setFacing("E");
 		}
 		
