@@ -155,3 +155,6 @@ RefactoringAction 1476878340889 PlanetExplorer.java ADD String showInfo FIELD
 RefactoringAction 1476878347402 PlanetExplorer.java REMOVE showInfo FIELD
 RefactoringAction 1476878393424 PlanetExplorer.java ADD void showInfo() METHOD
 EditAction 1476878472792 PlanetExplorer.java 1662 7 8 0
+CompilationAction 1476878474663 PlanetExplorer.java
+CompilationAction 1476878474664 PlanetExplorer.java
+EditAction 1476878484959 PlanetExplorer.java 1667 7 8 0
