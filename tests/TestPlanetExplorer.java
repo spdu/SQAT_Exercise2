@@ -85,5 +85,13 @@ public class TestPlanetExplorer {
 	explorer.executeCommand("f");
 	assertEquals("-1,0,W", explorer.showInfo());
 	}
+	@Test
+	public void test_receiveCommand_3x_left() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
+	explorer.executeCommand("l");
+	explorer.executeCommand("l");
+	explorer.executeCommand("l");
+	assertEquals("0,0,E", explorer.showInfo());
+	}
 	
 }

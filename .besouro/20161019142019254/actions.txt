@@ -361,3 +361,12 @@ EditAction 1476882320041 TestPlanetExplorer.java 2491 13 32 13
 UnitTestCaseAction 1476882322063 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882322064 TestPlanetExplorer.java FAIL
 EditAction 1476882473905 PlanetExplorer.java 2815 8 15 0
+UnitTestCaseAction 1476882476052 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476882476053 TestPlanetExplorer.java OK
+RefactoringAction 1476882509449 TestPlanetExplorer.java ADD void test_receiveCommand_leftforward()/2 METHOD
+RefactoringAction 1476882512453 TestPlanetExplorer.java RENAME test_receiveCommand_leftforward()/2=>void test_receiveCommand_3() METHOD
+RefactoringAction 1476882518458 TestPlanetExplorer.java RENAME test_receiveCommand_3()=>void test_receiveCommand_360_degrees_left() METHOD
+RefactoringAction 1476882530986 TestPlanetExplorer.java RENAME test_receiveCommand_360_degrees_left()=>void test_receiveCommand_3_degrees_left() METHOD
+RefactoringAction 1476882533499 TestPlanetExplorer.java RENAME test_receiveCommand_3_degrees_left()=>void test_receiveCommand_3x_degrees_left() METHOD
+RefactoringAction 1476882535504 TestPlanetExplorer.java RENAME test_receiveCommand_3x_degrees_left()=>void test_receiveCommand_3x_left() METHOD
+EditAction 1476882545117 TestPlanetExplorer.java 2747 14 37 14
