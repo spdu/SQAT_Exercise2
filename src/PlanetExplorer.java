@@ -12,6 +12,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+	PlanetExplorer explorer = new PlanetExplorer(x,y,obstacles);
 		
 	}
 	
@@ -34,6 +35,10 @@ public class PlanetExplorer {
 	}
 	/*public int getPosition(PlanetExplorer explorer) {
 		
-		return 
+		
 	}*/
+	public void set() {
+		
+		
+	}
 }
