@@ -133,3 +133,6 @@ RefactoringAction 1476878090605 TestPlanetExplorer.java RENAME test_receiveComma
 EditAction 1476878102702 TestPlanetExplorer.java 847 5 6 5
 EditAction 1476878123525 TestPlanetExplorer.java 847 5 6 5
 EditAction 1476878148063 TestPlanetExplorer.java 847 5 6 5
+UnitTestCaseAction 1476878171354 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878171355 TestPlanetExplorer.java OK
+EditAction 1476878176574 TestPlanetExplorer.java 847 5 6 5
