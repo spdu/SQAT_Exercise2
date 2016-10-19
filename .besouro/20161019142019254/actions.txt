@@ -148,3 +148,10 @@ RefactoringAction 1476878290243 TestPlanetExplorer.java RENAME test_receiveComma
 RefactoringAction 1476878292256 TestPlanetExplorer.java RENAME test_()=>void test_show() METHOD
 RefactoringAction 1476878296768 TestPlanetExplorer.java RENAME test_show()=>void test_showAllInformation() METHOD
 EditAction 1476878316876 TestPlanetExplorer.java 978 6 7 6
+CompilationAction 1476878318585 TestPlanetExplorer.java
+UnitTestCaseAction 1476878321676 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878321677 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878340889 PlanetExplorer.java ADD String showInfo FIELD
+RefactoringAction 1476878347402 PlanetExplorer.java REMOVE showInfo FIELD
+RefactoringAction 1476878393424 PlanetExplorer.java ADD void showInfo() METHOD
+EditAction 1476878472792 PlanetExplorer.java 1662 7 8 0

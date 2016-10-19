@@ -50,4 +50,8 @@ public class PlanetExplorer {
 		
 		
 	}
+	public String showInfo()
+	
+	
+	return (positionx + "," + positiony + "," + getFacing());
 }
