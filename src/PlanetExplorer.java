@@ -78,6 +78,21 @@ public class PlanetExplorer {
 				positiony++;
 			}
 		}
+		turnLeft(command, i);
+		if (command.substring(i, i+1) == "r") {
+			setFacing("E");
+		}
+		
+		}
+		currPos_X = positionx;
+		currPos_Y = positiony;
+		PlanetExplorer.this.positiony = positiony;
+		return (positionx + "," + positiony + "," + getFacing());
+		
+		
+
+	}
+	private void turnLeft(String command, int i) {
 		if (command.substring(i, i+1) == "l") {
 			if (facing == "N"){
 				setFacing("W");
@@ -92,18 +107,6 @@ public class PlanetExplorer {
 				setFacing("W");
 			}
 		}
-		if (command.substring(i, i+1) == "r") {
-			setFacing("E");
-		}
-		
-		}
-		currPos_X = positionx;
-		currPos_Y = positiony;
-		PlanetExplorer.this.positiony = positiony;
-		return (positionx + "," + positiony + "," + getFacing());
-		
-		
-
 	}
 	public String getFacing() {
 		return facing;
