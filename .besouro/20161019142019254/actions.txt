@@ -15,3 +15,13 @@ RefactoringAction 1476876661593 TestPlanetExplorer.java ADD void test_initialize
 RefactoringAction 1476876666126 TestPlanetExplorer.java RENAME test_initializeState()/2=>void test_() METHOD
 RefactoringAction 1476876795151 TestPlanetExplorer.java RENAME test_()=>void test_explorerFacingNorth() METHOD
 EditAction 1476876861621 TestPlanetExplorer.java 389 2 2 2
+CompilationAction 1476876863208 TestPlanetExplorer.java
+UnitTestCaseAction 1476876864796 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876864797 TestPlanetExplorer.java FAIL
+CompilationAction 1476876893972 TestPlanetExplorer.java
+CompilationAction 1476876894175 TestPlanetExplorer.java
+UnitTestCaseAction 1476876896275 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876896276 TestPlanetExplorer.test_explorerFacingNorth FAIL
+RefactoringAction 1476876925071 PlanetExplorer.java ADD String getFacing FIELD
+RefactoringAction 1476876926088 PlanetExplorer.java RENAME getFacing=>String getFacing() METHOD
+EditAction 1476876937800 PlanetExplorer.java 1322 3 2 0

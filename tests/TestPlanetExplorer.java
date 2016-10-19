@@ -13,6 +13,6 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_explorerFacingNorth() throws PlanetExplorerException {
-	assertEquals("North", explorer.getFacing());
+	assertEquals("N", explorer.getFacing());
 	}
 }
