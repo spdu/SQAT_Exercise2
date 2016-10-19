@@ -52,7 +52,22 @@ public class PlanetExplorer {
 			}
 		}
 		if (command.substring(i, i+1) == "b"){
-			positiony--;
+			if (facing == "S") {
+				positionx++;
+				
+			}
+			if (facing =="W"){
+				positionx--;
+			}
+			
+			if (facing == "N") {
+				positiony--;
+			}
+					
+
+			if (facing == "E") {
+				positiony++;
+			}
 		}
 		if (command.substring(i, i+1) == "l") {
 			setFacing("W");
