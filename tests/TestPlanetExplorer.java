@@ -40,36 +40,43 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_receiveCommand_forward_showInfo() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("f");
 	assertEquals("0,1,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_left_showInfo() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("l");
 	assertEquals("0,0,W", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_right_showInfo() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("r");
 	assertEquals("0,0,E", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_backward() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("b");
 	assertEquals("0,-1,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_fff() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("fff");
 	assertEquals("0,3,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_backback() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("bb");
 	assertEquals("0,-2,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_leftforward() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
 	explorer.executeCommand("llll");
 	assertEquals("-1,0,W", explorer.showInfo());
 	}
