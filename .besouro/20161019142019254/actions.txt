@@ -107,3 +107,12 @@ RefactoringAction 1476877967047 PlanetExplorer.java RENAME getPosition(PlanetExp
 EditAction 1476877971368 TestPlanetExplorer.java 548 3 3 3
 CompilationAction 1476877972990 TestPlanetExplorer.java
 EditAction 1476877975088 PlanetExplorer.java 1534 5 4 0
+CompilationAction 1476877976629 TestPlanetExplorer.java
+RefactoringAction 1476877987572 PlanetExplorer.java RENAME getPositionX(PlanetExplorer)=>int getPositionX() METHOD
+UnitTestCaseAction 1476878010279 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878010280 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476878028754 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878028755 TestPlanetExplorer.java OK
+RefactoringAction 1476878037951 TestPlanetExplorer.java ADD void test_explorerPosition_X_AfterSpawn()/2 METHOD
+RefactoringAction 1476878039963 TestPlanetExplorer.java RENAME test_explorerPosition_X_AfterSpawn()/2=>void test_explorerPosition_Y_AfterSpawn() METHOD
+EditAction 1476878041524 TestPlanetExplorer.java 686 4 4 4

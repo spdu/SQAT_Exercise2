@@ -21,4 +21,9 @@ public class TestPlanetExplorer {
 	
 	assertEquals(0, explorer.getPositionX());
 	}
+	@Test
+	public void test_explorerPosition_Y_AfterSpawn() throws PlanetExplorerException {
+	
+	assertEquals(0, explorer.getPositionY());
+	}
 }

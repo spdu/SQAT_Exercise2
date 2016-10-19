@@ -15,8 +15,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-	PlanetExplorer explorer = new PlanetExplorer(x,y,obstacles);
-		
+	positionx = x;
+	positiony = y;
 	}
 	
 	public String executeCommand(String command){
@@ -36,7 +36,7 @@ public class PlanetExplorer {
 	public String getFacing() {
 		return "N";
 	}
-	public int getPositionX(PlanetExplorer explorer) {
+	public int getPositionX() {
 		
 		return positionx;
 	}
