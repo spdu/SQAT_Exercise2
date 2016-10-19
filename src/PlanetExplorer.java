@@ -35,6 +35,7 @@ public class PlanetExplorer {
 			if (facing == "W" || facing == "S") {
 				positiony--;
 			}
+			else
 			positiony++;
 		}
 		if (command == "b"){
