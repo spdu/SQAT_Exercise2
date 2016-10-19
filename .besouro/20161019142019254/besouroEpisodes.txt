@@ -356,3 +356,6 @@
 1476883305883 test-last 1 796 false
 1476883305884 test-last 1 796 false
 1476883305885 test-last 1 796 false
+1476883413361 test-addition 1 99 true
+1476883413362 test-addition 1 99 true
+1476883520649 regression 1 0 true

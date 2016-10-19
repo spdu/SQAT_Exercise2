@@ -410,3 +410,18 @@ UnitTestCaseAction 1476883305831 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476883305832 TestPlanetExplorer.java OK
 RefactoringAction 1476883313853 TestPlanetExplorer.java ADD void test_receiveCommand_3x_left()/2 METHOD
 EditAction 1476883393897 TestPlanetExplorer.java 3285 16 47 16
+CompilationAction 1476883395228 TestPlanetExplorer.java
+UnitTestCaseAction 1476883413360 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883413361 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476883520648 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476883520649 TestPlanetExplorer.java OK
+RefactoringAction 1476883525445 TestPlanetExplorer.java REMOVE test_receiveCommand_3x_left()/2 METHOD
+RefactoringAction 1476883535952 TestPlanetExplorer.java RENAME test_receiveCommand_3x_left()=>void test_receiveCommand_B() METHOD
+RefactoringAction 1476883538458 TestPlanetExplorer.java RENAME test_receiveCommand_B()=>void test_receiveCommand_BackBackBack_() METHOD
+RefactoringAction 1476883539963 TestPlanetExplorer.java RENAME test_receiveCommand_BackBackBack_()=>void test_receiveCommand_BackBackBack_Over() METHOD
+RefactoringAction 1476883541468 TestPlanetExplorer.java RENAME test_receiveCommand_BackBackBack_Over()=>void test_receiveCommand_BackBackBack_Over_() METHOD
+RefactoringAction 1476883543972 TestPlanetExplorer.java RENAME test_receiveCommand_BackBackBack_Over_()=>void test_receiveCommand_BackBackBack_Over_The_Edge() METHOD
+CompilationAction 1476883569365 TestPlanetExplorer.java
+UnitTestCaseAction 1476883574442 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883574443 TestPlanetExplorer.java FAIL
+EditAction 1476883608547 PlanetExplorer.java 3370 9 17 0

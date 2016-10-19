@@ -94,21 +94,14 @@ public class TestPlanetExplorer {
 	assertEquals("-1,0,W", explorer.showInfo());
 	}
 	@Test
-	public void test_receiveCommand_3x_left() throws PlanetExplorerException {
+	public void test_receiveCommand_BackBackBack_Over_The_Edge() throws PlanetExplorerException {
 	explorer.setPosition(0,0,"N");
-	explorer.executeCommand("l");
-	explorer.executeCommand("l");
-	explorer.executeCommand("l");
-	assertEquals("0,0,E", explorer.showInfo());
+	explorer.executeCommand("b");
+	explorer.executeCommand("b");
+	explorer.executeCommand("b");
+	assertEquals("0,98,N", explorer.showInfo());
 	}
-	@Test
-	public void test_receiveCommand_3x_left() throws PlanetExplorerException {
-	explorer.setPosition(0,0,"N");
-	explorer.executeCommand("l");
-	explorer.executeCommand("l");
-	explorer.executeCommand("l");
-	assertEquals("0,0,E", explorer.showInfo());
-	}
+
 	
 	
 }
