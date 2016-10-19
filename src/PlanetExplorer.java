@@ -21,8 +21,8 @@ public class PlanetExplorer {
 	//positiony = y;
 	}
 	public void setPosition(int x, int y, String direction) {
-		positionx = x;
-		positiony = y;
+		*positionx = x;
+		*positiony = y;
 		setFacing(direction);
 	}
 	
