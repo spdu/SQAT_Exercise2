@@ -7,6 +7,7 @@ public class PlanetExplorer {
 	
 	int positionx = 0;
 	int positiony = 0;
+	String facing ="N";
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -33,10 +34,17 @@ public class PlanetExplorer {
 		if (command == "f"){
 			positiony++;
 		}
+		if (command == "l") {
+			setFacing("W")
+		}
+					
 		return null;
 	}
 	public String getFacing() {
-		return "N";
+		return facing;
+	}
+	public void setFacing(String direction) {
+		facing = direction;
 	}
 	public int getPositionX() {
 		

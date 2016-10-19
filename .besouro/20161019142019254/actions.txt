@@ -170,3 +170,9 @@ RefactoringAction 1476878567981 TestPlanetExplorer.java RENAME test_receiveComma
 RefactoringAction 1476878570994 TestPlanetExplorer.java RENAME test_receiveCommand_left_showInfo()/2=>void test_receiveCommand_fo_showInfo() METHOD
 RefactoringAction 1476878572007 TestPlanetExplorer.java RENAME test_receiveCommand_fo_showInfo()=>void test_receiveCommand_forward_showInfo() METHOD
 EditAction 1476878586217 TestPlanetExplorer.java 1320 8 11 8
+UnitTestCaseAction 1476878590291 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878590292 TestPlanetExplorer.java FAIL
+RefactoringAction 1476878709442 PlanetExplorer.java ADD String facing FIELD
+RefactoringAction 1476878728474 PlanetExplorer.java ADD void setFacing() METHOD
+RefactoringAction 1476878748559 PlanetExplorer.java RENAME setFacing()=>void setFacing(String) METHOD
+EditAction 1476878769197 PlanetExplorer.java 1811 8 7 0
