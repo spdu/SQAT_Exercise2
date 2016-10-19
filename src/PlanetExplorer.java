@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		for (int i = 0; i < command.length(); i++){
-			System.out.println(command.substring(i, 1));
+			System.out.println(command.substring(i, i+1));
 		if (command.substring(i) == "f"){
 			if (facing == "W" || facing == "S") {
 				positionx--;
