@@ -95,9 +95,10 @@ public class PlanetExplorer {
 		
 		return positiony;
 	}
-	public void set() {
-		
-		
+	public void setPosition(int x, int y, String direction) {
+		positionx = x;
+		positiony = y;
+		setFacing(direction);
 	}
 	public String showInfo() {
 	

@@ -306,3 +306,5 @@ UnitTestSessionAction 1476880740538 TestPlanetExplorer.java FAIL
 RefactoringAction 1476880831915 PlanetExplorer.java RENAME set()=>void setPosition() METHOD
 RefactoringAction 1476880845432 PlanetExplorer.java RENAME setPosition()=>void setPosition(int, int, String) METHOD
 EditAction 1476880916983 TestPlanetExplorer.java 2372 13 28 13
+CompilationAction 1476880918434 TestPlanetExplorer.java
+EditAction 1476880921768 PlanetExplorer.java 2585 8 12 0
