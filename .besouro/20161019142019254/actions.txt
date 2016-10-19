@@ -384,3 +384,13 @@ EditAction 1476882728267 PlanetExplorer.java 3063 9 16 0
 RefactoringAction 1476882771873 PlanetExplorer.java RENAME turnLeft(String, int)=>void turnLeft(String) METHOD
 RefactoringAction 1476882806960 PlanetExplorer.java RENAME turnLeft(String)=>void turnShip(String) METHOD
 EditAction 1476882880446 PlanetExplorer.java 3094 9 8 0
+CompilationAction 1476882883144 PlanetExplorer.java
+CompilationAction 1476882883145 PlanetExplorer.java
+CompilationAction 1476882883146 PlanetExplorer.java
+CompilationAction 1476882886498 PlanetExplorer.java
+CompilationAction 1476882886499 PlanetExplorer.java
+CompilationAction 1476882886675 PlanetExplorer.java
+CompilationAction 1476882956819 PlanetExplorer.java
+CompilationAction 1476882956995 PlanetExplorer.java
+CompilationAction 1476882960925 PlanetExplorer.java
+EditAction 1476883048419 PlanetExplorer.java 3363 9 16 0

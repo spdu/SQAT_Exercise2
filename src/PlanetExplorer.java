@@ -79,11 +79,10 @@ public class PlanetExplorer {
 				positiony++;
 			}
 		}
-		if (currCommand == "l" || currCommand "r")
+		if (currCommand == "l" || currCommand == "r"){
 		turnShip(currCommand);
-		if (currCommand == "r") {
-			setFacing("E");
 		}
+		
 		
 		}
 		currPos_X = positionx;
@@ -95,19 +94,41 @@ public class PlanetExplorer {
 
 	}
 	private void turnShip(String command) {
-		if (command) == "l") {
+		while (command == "l") {
 			if (facing == "N"){
 				setFacing("W");
+				break;
 			}
 			if (facing == "W"){
 				setFacing("S");
+				break;
 			}
 			if (facing == "S"){
 				setFacing("E");
+				break;
 			}
 			if (facing == "E"){
 				setFacing("W");
+				break;
 			}
+		while (command == "r") {
+			if (facing =="N"){
+				setFacing("E");
+				break;
+			}
+			if (facing =="E"){
+				setFacing("S");
+				break;
+			}
+			if (facing =="S"){
+				setFacing("W");
+				break;
+			}
+			if (facing =="W"){
+				setFacing("N");
+				break;
+			}
+		}
 		}
 	}
 	public String getFacing() {
