@@ -100,6 +100,7 @@ public class TestPlanetExplorer {
 	explorer.executeCommand("b");
 	explorer.executeCommand("b");
 	assertEquals("0,98,N", explorer.showInfo());
+	
 	}
 
 	
