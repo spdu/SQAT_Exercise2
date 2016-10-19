@@ -6,7 +6,7 @@
 public class PlanetExplorer {
 	
 	
-	int positionx = 0;
+	private int positionx = 0;
 	int positiony = 0;
 	String facing ="N";
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -19,10 +19,11 @@ public class PlanetExplorer {
 	 */
 	//positionx = x;
 	//positiony = y;
+	
 	}
 	public void setPosition(int x, int y, String direction) {
-		*positionx = x;
-		*positiony = y;
+		positionx = x;
+		positiony = y;
 		setFacing(direction);
 	}
 	
@@ -84,6 +85,8 @@ public class PlanetExplorer {
 		}
 		
 		}
+		PlanetExplorer.this.positionx = positionx;
+		PlanetExplorer.this.positiony = positiony;
 		return (positionx + "," + positiony + "," + getFacing());
 		
 		

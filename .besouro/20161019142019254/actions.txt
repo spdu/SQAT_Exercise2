@@ -332,3 +332,7 @@ RefactoringAction 1476881734388 PlanetExplorer.java REMOVE positiony FIELD
 RefactoringAction 1476881763906 PlanetExplorer.java ADD int positionx FIELD
 RefactoringAction 1476881763908 PlanetExplorer.java ADD int positiony FIELD
 EditAction 1476881887512 TestPlanetExplorer.java 2373 13 28 13
+CompilationAction 1476881982346 PlanetExplorer.java
+UnitTestCaseAction 1476882086058 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882086059 TestPlanetExplorer.java FAIL
+EditAction 1476882097737 PlanetExplorer.java 2736 8 12 0
