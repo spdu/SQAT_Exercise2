@@ -183,3 +183,4 @@ UnitTestSessionAction 1476878780794 TestPlanetExplorer.java OK
 RefactoringAction 1476878793116 TestPlanetExplorer.java ADD void test_receiveCommand_left_showInfo()/2 METHOD
 RefactoringAction 1476878797127 TestPlanetExplorer.java RENAME test_receiveCommand_left_showInfo()/2=>void test_receiveCommand_right_showInfo() METHOD
 EditAction 1476878797824 TestPlanetExplorer.java 1489 9 13 9
+EditAction 1476878821688 TestPlanetExplorer.java 1489 9 13 9

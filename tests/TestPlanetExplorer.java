@@ -50,8 +50,8 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void test_receiveCommand_right_showInfo() throws PlanetExplorerException {
-	explorer.executeCommand("l");
-	assertEquals("0,0,W", explorer.showInfo());
+	explorer.executeCommand("r");
+	assertEquals("0,0,E", explorer.showInfo());
 	}
 	
 }
