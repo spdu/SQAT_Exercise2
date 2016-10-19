@@ -48,5 +48,10 @@ public class TestPlanetExplorer {
 	explorer.executeCommand("l");
 	assertEquals("0,0,W", explorer.showInfo());
 	}
+	@Test
+	public void test_receiveCommand_right_showInfo() throws PlanetExplorerException {
+	explorer.executeCommand("l");
+	assertEquals("0,0,W", explorer.showInfo());
+	}
 	
 }

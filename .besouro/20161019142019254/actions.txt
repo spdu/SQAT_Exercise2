@@ -178,3 +178,8 @@ RefactoringAction 1476878748559 PlanetExplorer.java RENAME setFacing()=>void set
 EditAction 1476878769197 PlanetExplorer.java 1811 8 7 0
 CompilationAction 1476878770893 PlanetExplorer.java
 EditAction 1476878778439 PlanetExplorer.java 1812 8 10 0
+UnitTestCaseAction 1476878780793 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878780794 TestPlanetExplorer.java OK
+RefactoringAction 1476878793116 TestPlanetExplorer.java ADD void test_receiveCommand_left_showInfo()/2 METHOD
+RefactoringAction 1476878797127 TestPlanetExplorer.java RENAME test_receiveCommand_left_showInfo()/2=>void test_receiveCommand_right_showInfo() METHOD
+EditAction 1476878797824 TestPlanetExplorer.java 1489 9 13 9
