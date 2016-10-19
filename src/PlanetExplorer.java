@@ -35,7 +35,7 @@ public class PlanetExplorer {
 			positiony++;
 		}
 		if (command == "l") {
-			setFacing("W")
+			setFacing("W");
 		}
 					
 		return null;

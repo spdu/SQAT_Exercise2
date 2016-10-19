@@ -176,3 +176,5 @@ RefactoringAction 1476878709442 PlanetExplorer.java ADD String facing FIELD
 RefactoringAction 1476878728474 PlanetExplorer.java ADD void setFacing() METHOD
 RefactoringAction 1476878748559 PlanetExplorer.java RENAME setFacing()=>void setFacing(String) METHOD
 EditAction 1476878769197 PlanetExplorer.java 1811 8 7 0
+CompilationAction 1476878770893 PlanetExplorer.java
+EditAction 1476878778439 PlanetExplorer.java 1812 8 10 0
