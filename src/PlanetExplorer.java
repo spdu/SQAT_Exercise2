@@ -79,6 +79,12 @@ public class PlanetExplorer {
 			}
 		}
 		if (command.substring(i, i+1) == "l") {
+			if (facing == "W"){
+				setFacing("S");
+			}
+			if (facing == "S"){
+				setFacing("E");
+			}
 			setFacing("W");
 		}
 		if (command.substring(i, i+1) == "r") {
