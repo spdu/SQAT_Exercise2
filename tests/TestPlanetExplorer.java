@@ -66,7 +66,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_receiveCommand_fff() throws PlanetExplorerException {
 	explorer.setPosition(0,0,"N");
-	explorer.executeCommand("fff");
+	explorer.executeCommand("f");
+	explorer.executeCommand("f");
+	explorer.executeCommand("f");
 	assertEquals("0,3,N", explorer.showInfo());
 	}
 	@Test
