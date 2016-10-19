@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 	
-	PlanetExplorer explorer = new PlanetExplorer(0,0,"");
+	PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)"); 
 
 	@Test
 	public void test_initializeState() throws PlanetExplorerException {
@@ -101,5 +101,14 @@ public class TestPlanetExplorer {
 	explorer.executeCommand("l");
 	assertEquals("0,0,E", explorer.showInfo());
 	}
+	@Test
+	public void test_receiveCommand_3x_left() throws PlanetExplorerException {
+	explorer.setPosition(0,0,"N");
+	explorer.executeCommand("l");
+	explorer.executeCommand("l");
+	explorer.executeCommand("l");
+	assertEquals("0,0,E", explorer.showInfo());
+	}
+	
 	
 }
