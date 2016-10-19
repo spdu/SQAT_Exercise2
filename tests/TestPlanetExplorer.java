@@ -38,5 +38,10 @@ public class TestPlanetExplorer {
 	assertEquals("0,0,N", explorer.showInfo());
 	}
 	
+	@Test
+	public void test_receiveCommand_left_showInfo() throws PlanetExplorerException {
+	explorer.executeCommand("f");
+	assertEquals("0,1,N", explorer.showInfo());
+	}
 	
 }
