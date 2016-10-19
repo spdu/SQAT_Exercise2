@@ -78,8 +78,7 @@ public class PlanetExplorer {
 		}
 		
 		}
-					
-		return null;
+		return (positionx + "," + positiony + "," + getFacing());
 	}
 	public String getFacing() {
 		return facing;
