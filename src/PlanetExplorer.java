@@ -36,7 +36,7 @@ public class PlanetExplorer {
 	public String getFacing() {
 		return "N";
 	}
-	public int getPosition(PlanetExplorer explorer) {
+	public int getPositionX(PlanetExplorer explorer) {
 		
 		return positionx;
 	}
