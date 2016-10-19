@@ -28,7 +28,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_receiveCommand_left() throws PlanetExplorerException {
+	public void test_receiveCommand_forward() throws PlanetExplorerException {
 	explorer.executeCommand("f");
 	assertEquals(1, explorer.getPositionY());
 	}
@@ -39,9 +39,14 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_receiveCommand_left_showInfo() throws PlanetExplorerException {
+	public void test_receiveCommand_forward_showInfo() throws PlanetExplorerException {
 	explorer.executeCommand("f");
 	assertEquals("0,1,N", explorer.showInfo());
+	}
+	@Test
+	public void test_receiveCommand_left_showInfo() throws PlanetExplorerException {
+	explorer.executeCommand("l");
+	assertEquals("0,0,W", explorer.showInfo());
 	}
 	
 }

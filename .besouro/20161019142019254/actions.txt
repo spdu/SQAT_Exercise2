@@ -163,3 +163,10 @@ UnitTestSessionAction 1476878488342 TestPlanetExplorer.java OK
 RefactoringAction 1476878515891 TestPlanetExplorer.java ADD void test_receiveCommand_left()/2 METHOD
 RefactoringAction 1476878520905 TestPlanetExplorer.java RENAME test_receiveCommand_left()/2=>void test_receiveCommand_left_showInfo() METHOD
 EditAction 1476878532654 TestPlanetExplorer.java 1146 7 9 7
+UnitTestCaseAction 1476878536324 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878536325 TestPlanetExplorer.java OK
+RefactoringAction 1476878558467 TestPlanetExplorer.java ADD void test_receiveCommand_left_showInfo()/2 METHOD
+RefactoringAction 1476878567981 TestPlanetExplorer.java RENAME test_receiveCommand_left()=>void test_receiveCommand_forward() METHOD
+RefactoringAction 1476878570994 TestPlanetExplorer.java RENAME test_receiveCommand_left_showInfo()/2=>void test_receiveCommand_fo_showInfo() METHOD
+RefactoringAction 1476878572007 TestPlanetExplorer.java RENAME test_receiveCommand_fo_showInfo()=>void test_receiveCommand_forward_showInfo() METHOD
+EditAction 1476878586217 TestPlanetExplorer.java 1320 8 11 8
