@@ -87,7 +87,8 @@ public class PlanetExplorer {
 		}
 		
 		}
-		PlanetExplorer.this.positionx = positionx;
+		currPos_X = positionx;
+		currPos_Y
 		PlanetExplorer.this.positiony = positiony;
 		return (positionx + "," + positiony + "," + getFacing());
 		
