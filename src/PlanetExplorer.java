@@ -20,10 +20,14 @@ public class PlanetExplorer {
 	//positionx = x;
 	//positiony = y;
 	}
+	public void setPosition(int x, int y, String direction) {
+		positionx = x;
+		positiony = y;
+		setFacing(direction);
+	}
 	
 	public String executeCommand(String command){
-		int positionx = 0;
-		int positiony = 0;
+
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -81,6 +85,9 @@ public class PlanetExplorer {
 		
 		}
 		return (positionx + "," + positiony + "," + getFacing());
+		
+		
+
 	}
 	public String getFacing() {
 		return facing;
@@ -96,11 +103,7 @@ public class PlanetExplorer {
 		
 		return positiony;
 	}
-	public void setPosition(int x, int y, String direction) {
-		positionx = x;
-		positiony = y;
-		setFacing(direction);
-	}
+
 	public String showInfo() {
 	
 	
