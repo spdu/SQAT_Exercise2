@@ -35,3 +35,10 @@ RefactoringAction 1476876968499 TestPlanetExplorer.java RENAME test_explorerPosi
 RefactoringAction 1476876974528 TestPlanetExplorer.java RENAME test_explorerPosition_Starting()=>void test_explorerPosition_AfterSpawn() METHOD
 RefactoringAction 1476877054625 TestPlanetExplorer.java RENAME test_explorerPosition_AfterSpawn()=>void test_explorerPosition_X_AfterSpawn() METHOD
 EditAction 1476877065467 TestPlanetExplorer.java 520 3 3 3
+CompilationAction 1476877067437 TestPlanetExplorer.java
+UnitTestCaseAction 1476877072219 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877072220 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877086644 PlanetExplorer.java ADD int getPosition() METHOD
+RefactoringAction 1476877105183 PlanetExplorer.java REMOVE getPosition() METHOD
+RefactoringAction 1476877124201 PlanetExplorer.java ADD int getPosition() METHOD
+EditAction 1476877149249 TestPlanetExplorer.java 528 3 3 3
