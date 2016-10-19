@@ -40,6 +40,10 @@ public class PlanetExplorer {
 		
 		return positionx;
 	}
+	public int getPositionY() {
+		
+		return positiony;
+	}
 	public void set() {
 		
 		

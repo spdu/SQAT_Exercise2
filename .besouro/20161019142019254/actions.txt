@@ -116,3 +116,10 @@ UnitTestSessionAction 1476878028755 TestPlanetExplorer.java OK
 RefactoringAction 1476878037951 TestPlanetExplorer.java ADD void test_explorerPosition_X_AfterSpawn()/2 METHOD
 RefactoringAction 1476878039963 TestPlanetExplorer.java RENAME test_explorerPosition_X_AfterSpawn()/2=>void test_explorerPosition_Y_AfterSpawn() METHOD
 EditAction 1476878041524 TestPlanetExplorer.java 686 4 4 4
+CompilationAction 1476878042698 TestPlanetExplorer.java
+UnitTestCaseAction 1476878044916 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878044916 TestPlanetExplorer.test_explorerPosition_Y_AfterSpawn FAIL
+RefactoringAction 1476878053190 PlanetExplorer.java ADD int getPositionX()/2 METHOD
+EditAction 1476878057006 PlanetExplorer.java 1533 6 6 0
+CompilationAction 1476878057958 PlanetExplorer.java
+EditAction 1476878059466 PlanetExplorer.java 1533 6 6 0
