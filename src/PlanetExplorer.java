@@ -85,7 +85,9 @@ public class PlanetExplorer {
 			if (facing == "S"){
 				setFacing("E");
 			}
-			setFacing("W");
+			if (facing == "E"){
+				setFacing("W");
+			}
 		}
 		if (command.substring(i, i+1) == "r") {
 			setFacing("E");
