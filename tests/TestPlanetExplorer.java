@@ -56,7 +56,12 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_receiveCommand_backward() throws PlanetExplorerException {
 	explorer.executeCommand("b");
-	assertEquals("0,-1,N", explorer.showInfo());
+	assertEquals("3,0,N", explorer.showInfo());
+	}
+	@Test
+	public void test_receiveCommand_backback() throws PlanetExplorerException {
+	explorer.executeCommand("fff");
+	assertEquals("0,-2,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_backback() throws PlanetExplorerException {

@@ -274,3 +274,7 @@ CompilationAction 1476880018384 PlanetExplorer.java
 UnitTestCaseAction 1476880019955 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880019956 TestPlanetExplorer.java FAIL
 EditAction 1476880082886 PlanetExplorer.java 2155 8 9 0
+UnitTestCaseAction 1476880097362 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880097363 TestPlanetExplorer.java FAIL
+RefactoringAction 1476880113231 TestPlanetExplorer.java ADD void test_receiveCommand_backback()/2 METHOD
+EditAction 1476880120057 TestPlanetExplorer.java 2153 13 21 13
