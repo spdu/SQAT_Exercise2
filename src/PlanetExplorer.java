@@ -35,7 +35,7 @@ public class PlanetExplorer {
 			//System.out.println(command.substring(i));
 		if (command.substring(i) == "f"){
 			if (facing == "W" || facing == "S") {
-				positiony--;
+				positionx--;
 			}
 			else
 			positiony++;
