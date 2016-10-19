@@ -7,3 +7,11 @@ RefactoringAction 1476876602003 TestPlanetExplorer.java REMOVE explorer FIELD
 EditAction 1476876602219 TestPlanetExplorer.java 203 1 1 1
 CompilationAction 1476876604214 TestPlanetExplorer.java
 EditAction 1476876606955 PlanetExplorer.java 1273 2 1 0
+RefactoringAction 1476876614535 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+CompilationAction 1476876643229 TestPlanetExplorer.java
+UnitTestCaseAction 1476876646189 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476876646190 TestPlanetExplorer.java OK
+RefactoringAction 1476876661593 TestPlanetExplorer.java ADD void test_initializeState()/2 METHOD
+RefactoringAction 1476876666126 TestPlanetExplorer.java RENAME test_initializeState()/2=>void test_() METHOD
+RefactoringAction 1476876795151 TestPlanetExplorer.java RENAME test_()=>void test_explorerFacingNorth() METHOD
+EditAction 1476876861621 TestPlanetExplorer.java 389 2 2 2
