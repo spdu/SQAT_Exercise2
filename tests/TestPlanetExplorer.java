@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_receiveCommand_left() throws PlanetExplorerException {
-	explorer.executeCommand("l");
+	explorer.executeCommand("f");
 	assertEquals(0, explorer.getPositionY());
 	}
 	
