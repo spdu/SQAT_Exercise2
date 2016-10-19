@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	
+	
 	int positionx = 0;
 	int positiony = 0;
 	String facing ="N";
