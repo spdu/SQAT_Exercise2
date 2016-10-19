@@ -42,3 +42,5 @@ RefactoringAction 1476877086644 PlanetExplorer.java ADD int getPosition() METHOD
 RefactoringAction 1476877105183 PlanetExplorer.java REMOVE getPosition() METHOD
 RefactoringAction 1476877124201 PlanetExplorer.java ADD int getPosition() METHOD
 EditAction 1476877149249 TestPlanetExplorer.java 528 3 3 3
+CompilationAction 1476877150878 TestPlanetExplorer.java
+EditAction 1476877153226 PlanetExplorer.java 1363 4 2 0

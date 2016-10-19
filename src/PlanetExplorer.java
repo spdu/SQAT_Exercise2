@@ -32,4 +32,7 @@ public class PlanetExplorer {
 	public String getFacing() {
 		return "N";
 	}
+	public int getPosition() {
+		return 
+	}
 }
