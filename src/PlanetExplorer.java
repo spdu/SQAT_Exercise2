@@ -37,6 +37,9 @@ public class PlanetExplorer {
 		if (command == "l") {
 			setFacing("W");
 		}
+		if (command == "r") {
+			setFacing("E");
+		}
 					
 		return null;
 	}
