@@ -26,4 +26,11 @@ public class TestPlanetExplorer {
 	
 	assertEquals(0, explorer.getPositionY());
 	}
+	
+	@Test
+	public void test_receiveCommand_left() throws PlanetExplorerException {
+	explorer.executeCommand("l");
+	assertEquals(0, explorer.getPositionY());
+	}
+	
 }

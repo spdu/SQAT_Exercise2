@@ -123,3 +123,11 @@ RefactoringAction 1476878053190 PlanetExplorer.java ADD int getPositionX()/2 MET
 EditAction 1476878057006 PlanetExplorer.java 1533 6 6 0
 CompilationAction 1476878057958 PlanetExplorer.java
 EditAction 1476878059466 PlanetExplorer.java 1533 6 6 0
+UnitTestCaseAction 1476878062447 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878062448 TestPlanetExplorer.test_explorerPosition_Y_AfterSpawn OK
+RefactoringAction 1476878074034 TestPlanetExplorer.java ADD void test_explorerPosition_Y_AfterSpawn()/2 METHOD
+RefactoringAction 1476878084065 TestPlanetExplorer.java RENAME test_explorerPosition_Y_AfterSpawn()/2=>void test_receive() METHOD
+RefactoringAction 1476878086579 TestPlanetExplorer.java RENAME test_receive()=>void test_receiveCommand() METHOD
+RefactoringAction 1476878087591 TestPlanetExplorer.java RENAME test_receiveCommand()=>void test_receiveCommand_() METHOD
+RefactoringAction 1476878090605 TestPlanetExplorer.java RENAME test_receiveCommand_()=>void test_receiveCommand_left() METHOD
+EditAction 1476878102702 TestPlanetExplorer.java 847 5 6 5
