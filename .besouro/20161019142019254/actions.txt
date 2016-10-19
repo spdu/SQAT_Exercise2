@@ -381,3 +381,6 @@ UnitTestSessionAction 1476882650973 TestPlanetExplorer.java FAIL
 EditAction 1476882672017 PlanetExplorer.java 2988 8 15 0
 RefactoringAction 1476882728255 PlanetExplorer.java ADD void turnLeft(String, int) METHOD
 EditAction 1476882728267 PlanetExplorer.java 3063 9 16 0
+RefactoringAction 1476882771873 PlanetExplorer.java RENAME turnLeft(String, int)=>void turnLeft(String) METHOD
+RefactoringAction 1476882806960 PlanetExplorer.java RENAME turnLeft(String)=>void turnShip(String) METHOD
+EditAction 1476882880446 PlanetExplorer.java 3094 9 8 0
