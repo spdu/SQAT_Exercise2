@@ -59,9 +59,9 @@ public class TestPlanetExplorer {
 	assertEquals("3,0,N", explorer.showInfo());
 	}
 	@Test
-	public void test_receiveCommand_backback() throws PlanetExplorerException {
+	public void test_receiveCommand_fff() throws PlanetExplorerException {
 	explorer.executeCommand("fff");
-	assertEquals("0,-2,N", explorer.showInfo());
+	assertEquals("3,0,N", explorer.showInfo());
 	}
 	@Test
 	public void test_receiveCommand_backback() throws PlanetExplorerException {
