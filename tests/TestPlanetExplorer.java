@@ -32,5 +32,11 @@ public class TestPlanetExplorer {
 	explorer.executeCommand("f");
 	assertEquals(1, explorer.getPositionY());
 	}
+	@Test
+	public void test_showAllInformation() throws PlanetExplorerException {
+	
+	assertEquals("0,0,N", explorer.showInfo());
+	}
+	
 	
 }

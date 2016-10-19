@@ -139,3 +139,12 @@ EditAction 1476878176574 TestPlanetExplorer.java 847 5 6 5
 UnitTestCaseAction 1476878180042 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878180044 TestPlanetExplorer.java FAIL
 EditAction 1476878242516 PlanetExplorer.java 1572 6 7 0
+CompilationAction 1476878244199 PlanetExplorer.java
+CompilationAction 1476878259297 PlanetExplorer.java
+UnitTestCaseAction 1476878260911 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878260912 TestPlanetExplorer.java OK
+RefactoringAction 1476878285729 TestPlanetExplorer.java ADD void test_receiveCommand_left()/2 METHOD
+RefactoringAction 1476878290243 TestPlanetExplorer.java RENAME test_receiveCommand_left()/2=>void test_() METHOD
+RefactoringAction 1476878292256 TestPlanetExplorer.java RENAME test_()=>void test_show() METHOD
+RefactoringAction 1476878296768 TestPlanetExplorer.java RENAME test_show()=>void test_showAllInformation() METHOD
+EditAction 1476878316876 TestPlanetExplorer.java 978 6 7 6
