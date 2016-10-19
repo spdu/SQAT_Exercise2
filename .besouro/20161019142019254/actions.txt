@@ -70,3 +70,7 @@ FileOpenedAction 1476877426221 Spreadsheet.java 1903 5 13 0
 RefactoringAction 1476877473572 PlanetExplorer.java ADD int getPosition(PlanetExplorer) METHOD
 RefactoringAction 1476877488625 PlanetExplorer.java REMOVE getPosition(PlanetExplorer) METHOD
 EditAction 1476877493418 TestPlanetExplorer.java 508 3 3 3
+UnitTestCaseAction 1476877495347 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877495348 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877541021 TestPlanetExplorer.java RENAME test_explorerPosition_X_AfterSpawn()=>void test_explorerPosition_X FIELD
+EditAction 1476877560087 TestPlanetExplorer.java 513 3 3 3
