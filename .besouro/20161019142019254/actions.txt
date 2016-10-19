@@ -97,3 +97,9 @@ UnitTestCaseAction 1476877882323 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877882324 TestPlanetExplorer.test_explorerPosition_X_AfterSpawn FAIL
 RefactoringAction 1476877888452 PlanetExplorer.java ADD int getPosition(PlanetExplorer) METHOD
 EditAction 1476877897576 TestPlanetExplorer.java 547 3 3 3
+CompilationAction 1476877899262 TestPlanetExplorer.java
+RefactoringAction 1476877950486 PlanetExplorer.java ADD int positionx FIELD
+RefactoringAction 1476877950489 PlanetExplorer.java ADD int positiony FIELD
+CompilationAction 1476877951331 PlanetExplorer.java
+CompilationAction 1476877951332 TestPlanetExplorer.java
+EditAction 1476877956030 PlanetExplorer.java 1533 5 4 0
